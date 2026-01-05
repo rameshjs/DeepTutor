@@ -121,12 +121,12 @@ interface TestResults {
 }
 
 interface LLMProvider {
-  name: str;
-  binding: str;
-  base_url: str;
-  api_key: str;
-  model: str;
-  is_active: bool;
+  name: string;
+  binding: string;
+  base_url: string;
+  api_key: string;
+  model: string;
+  is_active: boolean;
 }
 
 // Tab types
